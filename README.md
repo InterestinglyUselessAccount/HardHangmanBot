@@ -3,7 +3,10 @@ A bot for hangmanwords.com which only works with the "Hard Words" mode.
 ## Notice
 This bot isn't fully accurate! It doesn't win all the time.
 ## How do I use it?
-Copy the contents of main.js, go to hangmanwords.com/play/hard-words and paste it into the Inspect Element console or run it with the javascript: protocol. You should see it attempt to guess the word.
+Copy the contents of either _main.js_ or _newmain.js_, go to hangmanwords.com/play/hard-words and paste it into the Inspect Element console or run it with the javascript: protocol. You should see it attempt to guess the word.
+
+_main.js_ is the regular version: guesses a word then stops.<br>
+_newmain.js_ keeps playing the game and tracks stats of how it's going. The only way to stop it is by refreshing.
 ## Why did you make this?
 This is just an experiment.
 ## How does it work?
